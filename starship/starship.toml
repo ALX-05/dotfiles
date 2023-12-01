@@ -3,12 +3,12 @@ add_newline = true
 
 [character]
 format = '$symbol '
-success_symbol = '[  >](bold #cba6f7)'
-error_symbol = '[  >](bold #cba6f7)'
+success_symbol = '[  >](bold #cdd6f4)'
+error_symbol = '[  >](bold #cdd6f4)'
 disabled = false
 
 [username]
-format = '[ ](#cba6f7)[$user](#cba6f7)[ | ](bold)'
+format = '[ ](#cba6f7)[$user](#cba6f7)[ | ](bold #cdd6f4)'
 style_root = 'bold'
 style_user = 'bold'
 show_always = true
