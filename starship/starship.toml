@@ -1,0 +1,23 @@
+format = '$all'
+add_newline = true
+
+[character]
+format = '$symbol '
+success_symbol = '[  >](bold #cba6f7)'
+error_symbol = '[  >](bold #cba6f7)'
+disabled = false
+
+[username]
+format = '[ ](#cba6f7)[$user](#cba6f7)[ | ](bold)'
+style_root = 'bold'
+style_user = 'bold'
+show_always = true
+disabled = false
+
+[directory]
+truncation_length = 16
+truncate_to_repo = true
+read_only = ' 🔒'
+
+[cmd_duration]
+disabled = true
